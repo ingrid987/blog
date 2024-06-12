@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+
+ 
+*{
+    margin:0;
+    font-family: "Kanit", sans-serif;
+}
+
+.cuero{
+  background-color: beige;
+  background-size: cover;
+  
+  height: 100vh;
+}  
+.redesSociales{
+  background-color: rgba(5, 176, 255, 0.288);
+  text-align: center;
+  
+}
+.red{
+
+  width: 70px;
+  
+
+}
+
+.menu{
+  background-color: rgba(5, 176, 255, 0.288);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.logo{  
+
+width: 70px;
+
+}
+
+
+
+
+.menu2{
+  display: flex;
+
+}
+.menuelemento{
+  margin-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  list-style: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+.linnk:link{
+  text-decoration: none;
+
+}
+.linnk:hover{
+  color: rgb(255, 255, 255);
+}
+.main{
+  justify-content: center;
+  display: flex ;
+  align-items:center;
+  
+}
+
+.main_imagen{
+  height: 380px;
+  margin: 70px;
+  border-radius: 10px;
+  align-items: center;
+
+}
+.main_main{
+  text-align:center;
+  margin: 40px;
+  
+}
+.main_boton{
+  color: rgb(241, 234, 234);
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(25, 58, 100);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+}
+
+.main_texto{
+  font-size: 20px;
+  margin: 10px 70px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card_boton{
+  color: rgb(241, 234, 234);
+  width: 200px ;
+  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 80px;
+  background-color: rgb(25, 58, 100);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  border-color: aliceblue;
+  border-radius:10px;
+}
+
+.contenedorcard{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+
+}
+.card{
+  border: 2px solid rgb(15, 7, 116);
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 50px; 
+}
+.card_img{
+  width: 50%;
+  border-radius: 5%;
+  margin: 60px 0 0 0;
+}
+.sola{
+  width: 40%;
+  border-radius: 5%;
+  margin: 50px 0 0 0;
+
+
+}
+.card_titulo{
+  margin: 10px 0;
+}
+
+.card_parrafo{
+  margin: 10px 70px;
+}
+.pie{
+  background: linear-gradient(rgba(71, 71, 202, 0.456), rgba(20, 38, 138, 0.457));
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
